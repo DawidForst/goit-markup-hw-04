@@ -106,13 +106,17 @@ body {
 .li-nav {
   padding-right: 46px;
 }
+.icon {
+  margin-left: 12px;
+  margin-right: 12px;
+  border: 2px dashed #2a2a2a;
+  /* border-radius: 8px; */
+  fill: blue;
+}
 
-/* .flex-parent {
-  display: flex;
-  align-items: center;
-
-  margin-left: 271px;
-} */
+.svg-header {
+  margin-right: 10px;
+}
 
 .nav {
   line-height: 1.14;
@@ -137,6 +141,14 @@ body {
   color: var(--hover-links-color);
 }
 
+.img-background {
+  display: flex;
+  max-width: 1600px;
+  max-height: 600px;
+  margin: auto;
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+}
 .li-contact {
   display: flex;
   gap: 50px;
@@ -169,7 +181,7 @@ body {
 }
 
 .main {
-  background: #2f303a;
+  /* background: #2f303a; */
   display: flex;
   align-items: center;
   justify-content: center;
