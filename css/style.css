@@ -156,7 +156,7 @@ body {
   max-width: 1600px;
   max-height: 600px;
   margin: auto;
-  background-image: url("/images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
 }
 .li-contact {
@@ -596,6 +596,7 @@ body {
 }
 
 .footer-header {
+  display: column;
   font-weight: 700;
   color: var(--semi-text-color);
   text-transform: uppercase;
