@@ -49,16 +49,17 @@ body {
 }
 .container {
   display: block;
-
+  padding: 0 15px;
   width: 1200px;
   margin: 0 auto;
 }
 
 .container-footer {
-  display: block;
+  display: flex;
 
   width: 1200px;
   margin: 0 auto;
+  align-items: baseline;
 }
 
 .section {
@@ -363,7 +364,6 @@ body {
 
 .portfolio-description:hover {
   cursor: pointer;
-  border: 1px solid rgba(238, 238, 238, 1);
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
@@ -563,8 +563,10 @@ body {
 }
 
 .card-icons:hover {
-  fill: var(--hover-links-color);
+  fill: var(--semi-text-color);
   cursor: pointer;
+  background-color: var(--hover-links-color);
+  border-color: var(--hover-links-color);
 }
 
 .section-clients {
