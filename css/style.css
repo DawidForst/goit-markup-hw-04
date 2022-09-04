@@ -6,6 +6,7 @@
   --semi-text-color: #ffffff;
   --iconcolor: #afb1b8;
   --footericon: rgba(255, 255, 255, 0.1);
+  --background-main: #2f303a66;
 }
 
 img {
@@ -159,6 +160,10 @@ body {
   margin: auto;
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
+
+  background-color: var(--background-main);
+  background-blend-mode: difference;
+  color: var(--semi-text-color);
 }
 .li-contact {
   display: flex;
